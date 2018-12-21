@@ -1,4 +1,4 @@
-#include <bits/stdc++.h>
+/*#include <bits/stdc++.h>
 using namespace std;
 
  int sumdig( int n)
@@ -34,4 +34,16 @@ using namespace std;
         test--;
     }
     return 0;
+}*/
+#include <bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int t, i, j, n;
+    scanf("%d", &t);
+    while (t--)
+    {
+        scanf("%d", &n);
+        printf("%d\n", (n % 9) + 1);
+    }
 }
