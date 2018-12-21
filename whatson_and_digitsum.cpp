@@ -1,4 +1,6 @@
-#include <stdio.h>
+#include <bits/stdc++.h>
+using namespace std;
+
  int sumdig( int n)
 {
     int t, sum = 0, rem;
